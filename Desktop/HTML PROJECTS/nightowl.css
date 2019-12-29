@@ -1,0 +1,75 @@
+  /*reset styles*/
+ article, body, div, footer, header, h1, h2, p {
+	 border: 0;
+	 padding: 0;
+	 margin: 0;
+ }
+ /* body and page container */
+.container {
+   max-width: 640px;
+   margin: 0 auto;
+   background-color: black;
+}
+/* headings */
+header {
+   width: 100%;
+   max-width: 640px;
+   position: fixed;
+   background-color: purple;
+   z-index: 4;
+   /*zindex:-1;8*/
+}
+h1 {
+   padding: 0.4em;
+   color: white;
+   text-align: center;
+}
+h2 {
+ padding: 0.4em 0.6em;
+ color:white;
+}
+
+/*main content*/
+article {
+	width: 70%;
+	float: right;
+	position: relative;
+	top: 6.2em;
+	z-index: auto;
+}
+article p {
+   padding: 0 1em 1em;
+   color:white;
+}
+
+/* sidebar */
+aside {
+   width: 30%;
+   padding: 1em 0;
+   background-color: purple;
+   position: relative;
+   top: 6.2em;
+}
+aside p {
+   border-bottom: 1px solid black;
+   border-top: 1px solid black;  
+   padding: 0.4em 0;   
+   margin: 0 0.6em;
+   color:white
+}
+/* footer section */
+footer {
+   padding: 0.6em;
+   color: white;
+   background-color: darkgreen;
+   text-align: center;
+   clear: right;
+   position: relative;
+   top: 6.23m
+}
+footer p {
+   margin: 0.4em;
+}
+footer p.accent {
+   color: goldenrod;
+}
